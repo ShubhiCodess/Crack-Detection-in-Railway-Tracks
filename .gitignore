@@ -1,0 +1,32 @@
+# environments
+venv/
+.env/
+
+# datasets
+datasets/
+*.zip
+*.rar
+
+# training outputs
+runs/
+experiments/
+weights/
+logs/
+
+# model weights
+*.pt
+*.pth
+*.onnx
+
+# python junk
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# system
+.DS_Store
+Thumbs.db
