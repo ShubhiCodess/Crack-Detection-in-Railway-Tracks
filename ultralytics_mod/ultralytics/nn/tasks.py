@@ -10,6 +10,9 @@ from pathlib import Path
 import torch
 import torch.nn as nn
 
+from ultralytics.nn.modules import SPDConv
+from ultralytics.nn.modules.c2fema import C2fEMA
+
 from ultralytics.nn.autobackend import check_class_names
 from ultralytics.nn.modules import (
     AIFI,
@@ -97,7 +100,6 @@ from ultralytics.utils.torch_utils import (
     smart_inference_mode,
     time_sync,
 )
-
 
 class BaseModel(torch.nn.Module):
     """Base class for all YOLO models in the Ultralytics family.
@@ -1568,6 +1570,8 @@ def parse_model(d, ch, verbose=True):
     layers, save, c2 = [], [], ch[-1]  # layers, savelist, ch out
     base_modules = frozenset(
         {
+            SPDConv,
+            C2fEMA,
             Classify,
             Conv,
             ConvTranspose,
