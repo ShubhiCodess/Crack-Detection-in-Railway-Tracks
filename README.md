@@ -1,4 +1,5 @@
 **Railway Track Crack Detection using YOLOv8**
+
 📌 Overview
 
 This project focuses on detecting cracks in railway tracks using a deep learning-based object detection model (YOLOv8) integrated with an ESP32-CAM for real-time image capture.
@@ -24,6 +25,7 @@ Annotated using bounding boxes for crack detection
 Includes variations in:
 Lighting conditions
 Track textures
+
 Crack orientations
 
 ⚙️ Tech Stack
@@ -36,3 +38,5 @@ Tools: Arduino IDE, OpenCV
 ESP32-CAM module used for capturing images
 Connected via CP2102 USB to TTL converter
 Configured using Arduino IDE
+
+<img width="1536" height="922" alt="diagram" src="https://github.com/user-attachments/assets/4b679c81-d9b7-49b5-b5cf-2e6eee4e3082" />
