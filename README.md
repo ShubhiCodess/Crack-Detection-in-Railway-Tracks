@@ -65,9 +65,9 @@ Robot → ESP32-CAM → WiFi → Local System → YOLO Model → Detection Outpu
 - AWS (in progress)
   
 ## Sample Results
-## 📸 Detection Results Comparison
 
-| Baseline YOLOv8n | Proposed Model |
+
+| Sample Photo | Proposed Model |
 |------------------|----------------|
 | <img width="640" height="640" alt="xpress (1)" src="https://github.com/user-attachments/assets/007a1703-8dcf-46f0-b87e-817340017167" />| <img width="640" height="640" alt="tested (1)" src="https://github.com/user-attachments/assets/5a0232a6-e26b-462e-9d69-3120688ef3ef" /> |
 
